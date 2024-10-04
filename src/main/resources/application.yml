@@ -1,0 +1,15 @@
+server:
+  port: 3000
+spring:
+  application:
+    name: Laptop_purchase
+  datasource:
+    url: jdbc:mysql://localhost:3306/laptop
+    username: root
+    password: surya
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
